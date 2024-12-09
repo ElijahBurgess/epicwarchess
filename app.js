@@ -7,7 +7,7 @@ const board = Chessboard('board', {
     onDrop: onDrop
 });
 
-const chess = new Chess();
+const chess = new Chessboard();
 
 // Custom 15x15 board initialization
 function initializeBoard() {
